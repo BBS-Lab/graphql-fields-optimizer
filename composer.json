@@ -1,0 +1,27 @@
+{
+    "name": "bbs-lab/graphql-fields-optimizer",
+    "description": "Package to improve the performance of GraphQL Lighthouse requests on the Laravel framework. The aim is to retrieve from your result only those columns needed to improve performance.",
+    "autoload": {
+        "psr-4": {
+            "BBSLab\\GraphqlFieldsOptimizer\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Antoine Corbin",
+            "email": "antoine.corbin@big-boss-studio.com",
+            "role": "Developer"
+        },
+        {
+            "name": "BBS Lab",
+            "email": "paris@big-boss-studio.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": "^10.0.0|^11.0.0",
+        "illuminate/contracts": "^10.0.0|^11.0.0",
+        "nuwave/lighthouse": "^5.0|^6.0"
+    }
+}
