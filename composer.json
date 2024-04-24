@@ -22,6 +22,8 @@
         "php": "^8.0",
         "laravel/framework": "^10.0.0|^11.0.0",
         "illuminate/contracts": "^10.0.0|^11.0.0",
+        "illuminate/support": "^10.0.0|^11.0.0",
+        "illuminate/database": "^10.0.0|^11.0.0",
         "nuwave/lighthouse": "^5.0|^6.0"
     }
 }
